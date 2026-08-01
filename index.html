@@ -30,6 +30,16 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=515680324655898&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+<!-- Google tag (gtag.js) - Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18085297999"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18085297999');
+</script>
+<!-- End Google tag -->
+
 
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1286,5 +1296,22 @@ section { padding: 60px 20px; }
 </svg>
 </a>
 
+
+<!-- Conversao Google Ads - clique no WhatsApp -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var links = document.querySelectorAll('a[href*="wa.me"], a[href*="whatsapp"], a[href*="api.whatsapp"]');
+  links.forEach(function (link) {
+    link.addEventListener('click', function () {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18085297999/u9_JCN3wqNkcEM_-3q9D',
+        'value': 50.0,
+        'currency': 'BRL'
+      });
+    });
+  });
+});
+</script>
+<!-- End Conversao Google Ads -->
 </body>
 </html>
